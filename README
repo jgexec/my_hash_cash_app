@@ -1,0 +1,24 @@
+my_hash_cash_app was written using Python 3.6.9
+
+Use the following commands to run it on Linux:
+
+pip install -r requirements.txt
+export FLASK_APP=my_hash_cash_app.py
+flask run
+
+
+Or on Windows:
+
+pip install -r requirements.txt
+set FLASK_APP=my_hash_cash_app.py
+flask run
+
+
+To run unit tests use:
+python test.py
+
+
+Use these URLs to verify endpoints using example inputs:
+
+http://127.0.0.1:5000/find?challenge=iBeat&zero_bits=16
+http://127.0.0.1:5000/verify?challenge=iBeat&zero_bits=16&proof=62073
